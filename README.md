@@ -13,6 +13,7 @@ hints.
 
 ## What's changed since HW3?
 
+- There is no mini-project component of this assignment.
 - You need to download the dataset we'll use from Canvas. See the `README.md`
   file in the `data/` directory for more information.
 - We've moved the `data.py` file into `free_response/`. You won't need to edit
