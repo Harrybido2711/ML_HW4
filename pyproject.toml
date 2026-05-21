@@ -1,0 +1,18 @@
+[project]
+name = "cs349"
+version = "0.1.0"
+description = "CS349 Homework"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fairlearn>=0.13.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+    "pytest>=9.0.2",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.15.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
