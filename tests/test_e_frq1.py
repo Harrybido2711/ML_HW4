@@ -8,6 +8,7 @@ from src.naive_bayes_em import NaiveBayesEM
 
 @pytest.mark.filterwarnings("ignore:divide by zero:RuntimeWarning")
 @pytest.mark.filterwarnings("ignore:invalid value encountered in multiply:RuntimeWarning")
+
 def test_frq1():
     """
     A test case that a large-vocab dataset like that used in FRQ1 and checks to
