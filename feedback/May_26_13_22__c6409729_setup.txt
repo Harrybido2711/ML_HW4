@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.3.4, pluggy-1.5.0
+rootdir: /workspace
+configfile: pyproject.toml
+collected 17 items / 16 deselected / 1 selected
+tests/test_a_setup.py F
+======================
+Output of autograder
+======================
+# of tests:	0/1 tests passed
+Overall score:	0/100
+======================
+FAIL - REQUIRED (automatic zero) test_setup
+======================
+=================================== FAILURES ===================================
+__________________________________ test_setup __________________________________
+>       assert len(lines) == 1, "Please add your Net ID."
+E       AssertionError: Please add your Net ID.
+E       assert 0 == 1
+E        +  where 0 = len([])
+tests/test_a_setup.py:12: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_a_setup.py::test_setup - AssertionError: Please add your Ne...
+======================= 1 failed, 16 deselected in 2.04s =======================
